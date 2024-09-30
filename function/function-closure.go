@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func closure() {
 	total := 0
 
 	increment := func() {

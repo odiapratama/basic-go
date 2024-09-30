@@ -15,7 +15,7 @@ func greeting(greetingType int) interface{} {
 	}
 }
 
-func main() {
+func interfaceEmpty() {
 	fmt.Println(greeting(1))
 	fmt.Println(greeting(2))
 	fmt.Println(greeting(3))

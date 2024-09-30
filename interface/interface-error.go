@@ -14,7 +14,7 @@ func Division(value int, divider int) (int, error) {
 	}
 }
 
-func main() {
+func interfaceError() {
 	result1, err1 := Division(100, 10)
 	result2, err2 := Division(100, 0)
 

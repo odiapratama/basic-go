@@ -11,7 +11,7 @@ func changeRegionAddress(address *Address, city string) {
 	address.Region = city
 }
 
-func main() {
+func pointer() {
 	address1 := Address{"Jakarta", "DKI Jakarta", "Indonesia"}
 	address2 := &address1
 

@@ -8,7 +8,7 @@ func getData() interface{} {
 	return "Haloo"
 }
 
-func main() {
+func typeAssertion() {
 	switch dataType := getData().(type) {
 	case string:
 		fmt.Println("String :", dataType)

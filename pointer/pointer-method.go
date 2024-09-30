@@ -11,7 +11,7 @@ func (user *User) addLastName(lastName string) {
 	user.Name = user.Name + " " + lastName
 }
 
-func main() {
+func pointerMethod() {
 	user := User{"Odia"}
 	fmt.Println(user.Name)
 

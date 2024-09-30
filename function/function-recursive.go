@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func recursive() {
 	number := 10
 	fmt.Println(factorialLoop(number))
 	fmt.Println(factorialRecursive(number))
