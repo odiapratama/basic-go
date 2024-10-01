@@ -6,4 +6,5 @@ func main() {
 	interfacePolymorph()
 	writeInterfaceFile()
 	interfaceStringer()
+	interfaceFileOrBuffer()
 }

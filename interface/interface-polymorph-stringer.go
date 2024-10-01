@@ -24,6 +24,7 @@ func logInfo(i fmt.Stringer) {
 }
 
 func interfaceStringer() {
+	fmt.Println("=== Interface Stringer ===")
 	b := book{
 		title: "The Art of War",
 	}

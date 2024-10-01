@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func interfacePolymorph() {
+	fmt.Println("=== Interface Polymorph ===")
 	p := person{
 		name: "Odia",
 	}

@@ -15,6 +15,7 @@ func Division(value int, divider int) (int, error) {
 }
 
 func interfaceError() {
+	fmt.Println("=== Interface Error ===")
 	result1, err1 := Division(100, 10)
 	result2, err2 := Division(100, 0)
 
