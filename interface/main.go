@@ -7,4 +7,5 @@ func main() {
 	writeInterfaceFile()
 	interfaceStringer()
 	interfaceFileOrBuffer()
+	mockDB()
 }
