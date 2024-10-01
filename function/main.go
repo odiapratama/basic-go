@@ -5,4 +5,5 @@ func main() {
 	recursive()
 	callback()
 	wrapper()
+	varadic()
 }
