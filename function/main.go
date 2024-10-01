@@ -4,4 +4,5 @@ func main() {
 	closure()
 	recursive()
 	callback()
+	wrapper()
 }
