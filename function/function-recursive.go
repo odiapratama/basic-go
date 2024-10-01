@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func recursive() {
+	fmt.Println("=== Function Recursive ===")
 	number := 10
 	fmt.Println(factorialLoop(number))
 	fmt.Println(factorialRecursive(number))
